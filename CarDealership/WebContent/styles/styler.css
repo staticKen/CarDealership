@@ -1,0 +1,285 @@
+.body{
+	background-color: grey;
+}
+.btn-dark:hover{
+	background-color: #c0c0c0 !important; 
+}
+.stylized{
+	font-family:'Courier New', monospace;
+	text-align: center;
+	font-size: 50px;
+	
+}
+div.centered{
+	
+	padding-left: 150px;
+}
+
+.search-button{
+	border: 1px solid grey !important;
+	line-height: .82rem !important;
+}
+.colors{
+
+color: grey !important;
+
+}
+	
+
+
+.button-padding{
+	padding-left: 200px;
+	margin-top: -27px;
+}
+.text-color{
+	color: black !important;
+	}
+	
+.drops{
+	appearance: none !important;
+	border: 1px solid transparent !important;
+	border-radius: .25rem !important;
+	font-size: 20px;
+	color: black;
+	background-color: grey;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+	background-position: right .10rem center !important;
+	background-repeat: no-repeat !important;
+	background-size: 16px 12px !important;
+	-webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    text-indent: 1px !important;
+    text-overflow: '';
+    width: 70% !important;
+   margin-right: 82px;
+ 
+
+    display:inline-block !important;
+}
+.drops::-ms-expand {
+  display: none;
+}
+
+div.vehicle-contain{
+	border-radius: 25px;
+	width: 500px;
+	height: 200px;
+	float: left;
+	background-color: #5d5d5d;	
+	margin-left: 10px;
+	margin-top:  10px;
+	border: 0px solid transparent;
+	}
+	
+	div.vehicle-contain:hover{
+	border: 1px solid black;
+	
+}
+
+.margin-size{
+	margin-bottom: 100px !important;
+}
+	
+div.desc {
+    padding: 10px;
+    text-align: center;
+    float: right;
+}
+
+div.price{
+	padding: 1px;
+    text-align: center;
+    margin-top: 39px;
+    font-size: 25px;
+	
+	
+}
+
+.floating{
+	float: right;
+}
+
+div.header{
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+}
+
+img{
+
+	border-radius: 25px;
+	
+}
+
+div.rate {
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+}
+div.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+div.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#808080;
+}
+div.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+div.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+div.rate:not(:checked) > label:hover,
+div.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+div.rate > input:checked + label:hover,
+div.rate > input:checked + label:hover ~ label,
+div.rate > input:checked ~ label:hover,
+div.rate > input:checked ~ label:hover ~ label,
+div.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.galler {
+    margin: auto;
+    /* border: 1px solid #ccc; */
+    width: 70%;
+    height:auto;
+    padding:2%;
+    
+}
+.galler img {
+    height:130px ;
+    width:200px;
+    
+
+    margin-left: 140px;
+    
+}
+
+.detailcontainer{
+
+	margin: auto;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    
+}  
+.tabledetail{
+	width:100%;
+	margin-bottom: auto;
+	
+	
+}
+.offer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container {
+  position: relative;
+}
+
+.table-striped tr th {
+   border-bottom: 1px solid black; /* Change the color you want to set */
+   border-top: 1px solid black;
+}
+.table-striped tr td {
+   border-bottom: 1px solid black; /* Change the color you want to set */
+}
+.table-striped tr:nth-child(even){
+  background-color: #5c5c5c;
+  color: black;
+}
+.table-sm tr td{
+	border-bottom: 1px solid black;
+}
+
+.table-sm tr:nth-child(even){
+  background-color: #5c5c5c;
+  color: black;
+}
+input[type="text"]{
+	width: 200px;
+	margin-top: 10px;
+}
+input[type="text"]:focus{
+	box-shadow: 0 0 0 2px black !important;
+	outline: 1px black !important;
+	border: 1px black;
+	
+}
+
+input[type="number"]{
+	width: 200px;
+	padding-top: 5px;
+}
+input[type="number"]:focus{
+	box-shadow: 0 0 0 2px black !important;
+	outline: 1px black !important;
+	border: 1px black;
+	
+}
+.offer-btn{
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+.buy-vehicle-btn{
+	margin-top: 10px;
+}
+
+.click-here-btn{
+	color: #484848;
+}
+.click-here-btn:hover{
+	color: black;
+}
+
+.link:hover{
+	color: #c0c0c0 !important;
+}
+
+.font-color{
+	color: black !important;
+}
+
+.box-color{
+	background: rgba(128, 128, 128, 0.5);
+	margin:225px;
+}
+
+.box-colors{
+    background: rgba(128, 128, 128, 0.5);
+	line-height: .5 !important;
+	margin-bottom: 10px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+.box-colors p{
+	margin-top: 10px;
+}
+
+.box-color p{
+	 margin: 1%;
+  font-weight: bold;
+  color: black;
+}
+
+.view{
+	padding-right: 60px !important;
+}
+.black{
+	color: black;
+}
